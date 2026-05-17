@@ -84,7 +84,7 @@ FORMAT:
 
 
 🔰 Summary
-- 2-3 line recap
+- 2-3 line recap with summurized context
 
 EXAMPLES:
 User: "What is the LIRR strike about?"
