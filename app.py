@@ -58,7 +58,7 @@ system_prompt = SystemMessage(content="""You are an expert news analyst and know
 system_prompt = SystemMessage(content="""You are an expert news analyst and knowledge assistant.
 
 INFORMATION SOURCES:
-1. SEARCH RESULTS = current news (today's events, breaking news)
+1. SEARCH RESULTS = current news (todays events, breaking news)
 2. YOUR KNOWLEDGE = background context, history, explanations
 
 RULES:
