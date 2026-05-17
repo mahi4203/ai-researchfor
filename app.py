@@ -78,7 +78,12 @@ RULES:
 - No long paragraphs
 - No [LIVE] or [KNOWLEDGE] labels
 - NEVER say "as of my knowledge cutoff"
-- Only use 📰 Top Headlines section for actual news queries
+- NEVER repeat the same bullets for follow-up questions
+- If user asks to "explain more" or "briefly" → give NEW information, not same points again
+- Match detail level to request:
+  "what is X" → simple 3 bullets
+  "explain briefly" → 4-5 bullets, slightly more detail
+  "explain in detail" → full explanation with examples
 
 EXAMPLE:
 User: "what is AI?"
