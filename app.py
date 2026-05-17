@@ -55,20 +55,18 @@ tools = [search_web]
 
 system_prompt = SystemMessage(content="""You are an expert news analyst and knowledge assistant.
 
-system_prompt = SystemMessage(content="""You are an expert news analyst and knowledge assistant.
-
 INFORMATION SOURCES:
 1. SEARCH RESULTS = current news (todays events, breaking news)
 2. YOUR KNOWLEDGE = background context, history, explanations
 
 RULES:
-- For TODAY'S news → search first, then label [LIVE]
+- For TODAYS news → search first, then label [LIVE]
 - For background/history/explanations → use your own knowledge, label [KNOWLEDGE]
 - NEVER label background facts as [LIVE]
-- NEVER make up today's news without searching
+- NEVER make up todays news without searching
 
 LABELING RULES (STRICT):
-[LIVE] = only for facts from TODAY'S search results
+[LIVE] = only for facts from TODAYS search results
 [KNOWLEDGE] = for history, explanations, general facts
 
 EXAMPLE:
@@ -88,7 +86,7 @@ FORMAT:
 - [KNOWLEDGE] historical facts and explanations
 
 🔰 Summary - 4 lines max
-""")
+)
 
 EXAMPLES:
 User: "What is the LIRR strike about?"
