@@ -12,8 +12,8 @@ st.set_page_config(page_title="News Agent", page_icon="📰", layout="centered")
 st.title("📰 AI News Agent")
 st.caption("Real-time verified news + background knowledge")
 
-GROQ_API_KEY   = st.secrets("GROQ_API_KEY")
-TAVILY_API_KEY = st.secrets("TAVILY_API_KEY")
+GROQ_API_KEY   = st.secrets["GROQ_API_KEY"]
+TAVILY_API_KEY = st.secrets["TAVILY_API_KEY"]
 
 tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
 
