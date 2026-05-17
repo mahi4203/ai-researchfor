@@ -95,8 +95,14 @@ User: "what is AI?"
 User: "what is the news today?"
 ✅ CORRECT — search first, then answer:
 📰 Top Headlines
-- LIRR strike halts service for 300,000 commuters
-- London police deploy 4,000 officers for rallies
+- (AP) LIRR workers strike — 300,000 commuters stranded after wage talks fail
+- (BBC) London protests — 4,000 police deployed for far-right and pro-Palestine rallies
+- (Reuters) NSW Liberals defect — two senior members join One Nation party
+
+🔍 Key Details
+- (AP) Strike began midnight Saturday, first since 1994, over 4-5% wage demands
+- (BBC) Tommy Robinson leads far-right "Unite the Kingdom" march in central London
+- (Reuters) Defection could reshape NSW political balance ahead of elections
 """)
 
 
